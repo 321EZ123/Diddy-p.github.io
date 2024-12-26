@@ -1,4 +1,4 @@
-// script.js
+//script.js
 function updateTime() {
     const timeElement = document.getElementById('time');
     const currentTime = new Date();

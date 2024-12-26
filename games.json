@@ -5,6 +5,32 @@
 "id":"game",
 "image":"images/bloxors.jpeg"
 
+},
+{
+"title":"learntofly",
+"link":"games/learntofly/",
+"id":"game",
+"image":"images/fly.jpeg"
+},
+{
+"title":"tosstheturtle",
+"link":"games/tosstheturtle",
+"id":"game",
+"image":"images/turtle.webp"
+},
+{
+"title":"sprinter",
+"link":"games/sprinter",
+"id":"game",
+"image":"images/sprinter.jpeg"
+},
+{
+"title":"superhot",
+"link":"games/superhot",
+"id":"game",
+"image":"images/superhot.jpeg"
 }
+
+
 
 ]
