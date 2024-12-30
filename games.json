@@ -1,36 +1,46 @@
 [
 {
-"title":"bloxors",
-"link":"games/bloxors/",
-"id":"game",
-"image":"images/bloxors.jpeg"
-
-},
-{
-"title":"learntofly",
-"link":"games/learntofly/",
-"id":"game",
-"image":"images/fly.jpeg"
-},
-{
-"title":"tosstheturtle",
-"link":"games/tosstheturtle",
-"id":"game",
-"image":"images/turtle.webp"
-},
-{
 "title":"sprinter",
 "link":"games/sprinter",
 "id":"game",
 "image":"images/sprinter.jpeg"
 },
 {
-"title":"superhot",
-"link":"games/superhot",
+"title":"Geometry dash",
+"link":"games/geometrydash/",
 "id":"game",
-"image":"images/superhot.jpeg"
+"image":"images/geometry.jpeg"
+},
+{
+"title":"tunnel rush",
+"link":"games/tunnel-rush/",
+"id":"game",
+"image":"images/rush.webp"
+},
+{
+"title":"run",
+"link":"games/run/",
+"id":"game",
+"image":"images/run.jpeg"
+},
+{
+"title":"Rooftop snipers",
+"link":"games/rooftopsnipers/",
+"id":"game",
+"image":"images/roof.jpeg"
+},
+{
+"title":"a dance on fire and ice",
+"link":"games/a-dance-on-fire-and-ice/",
+"id":"game",
+"image":"images/ice.jpeg"
+},
+{
+"title":"Drift boss",
+"link":"games/driftboss/",
+"id":"game",
+"image":"images/drift.jpeg"
 }
-
 
 
 ]
