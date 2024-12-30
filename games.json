@@ -30,7 +30,7 @@
 "image":"images/roof.jpeg"
 },
 {
-"title":"a dance on fire and ice",
+"title":"ADOFAI",
 "link":"games/a-dance-on-fire-and-ice/",
 "id":"game",
 "image":"images/ice.jpeg"
@@ -40,6 +40,30 @@
 "link":"games/driftboss/",
 "id":"game",
 "image":"images/drift.jpeg"
+},
+{
+"title":"bloons td",
+"link":"games/bloonstd/",
+"id":"game",
+"image":"images/bloons1.jpeg"
+},
+{
+"title":"bloons td 2",
+"link":"games/bloonstd2/",
+"id":"game",
+"image":"images/bloons2.png"
+},
+{
+"title":"Backrooms",
+"link":"games/backrooms/",
+"id":"game",
+"image":"images/splash.jpg"
+},
+{
+"title":"Retro bowl",
+"link":"games/retrobowl/",
+"id":"game",
+"image":"images/retro.png"
 }
 
 
