@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <link rel="stylesheet" href="Settings.css">
+<link rel="icon" type="image/x-icon" href="images/sat.png">
 <title>SATURN-Settings</title>
 </head>
 <body>
@@ -174,47 +175,5 @@
             <button class="key-button" id="save-button">Save</button>
             <button class="key-button" id="reset-button">Reset</button>
           </div>
-          <div class="settings-card">
-            <h3>Search Engine</h3>
-            <p>Change the search engine when searching.</p>
-            <select title="engine" id="engine" onchange="EngineChange(this)">
-              <option value="Google">Google (Default)</option>
-              <option value="Bing">Bing</option>
-              <option value="DuckDuckGo">DuckDuckGo</option>
-              <option value="Qwant">Qwant</option>
-              <option value="Startpage">Startpage</option>
-              <option value="SearchEncrypt">SearchEncrypt</option>
-              <option value="Ecosia">Ecosia</option>
-            </select>
-            <input
-              class="key-form"
-              type="text"
-              id="engine-form"
-              placeholder="Change Search Engine"
-              name="engine"
-            />
-            <button class="key-button" value="Save" onclick="SaveEngine();">
-              Save
-            </button>
-          </div>
-          <div class="settings-card">
-            <h3>Themes!</h3>
-            <p>Pick from a variety of themes to customize your experience.</p>
-            <select
-              placeholder="Solid Color Themes"
-              id="dropdown"
-              class="td"
-              onchange="themeChange(this)"
-            >
-              <option disabled selected>Solid Color Themes</option>
-              <option value="d">Default</option>
-              <option value="Inverted">Inverted</option>
-              <option value="sky">Sky</option>
-              <option disabled selected>Catppuccin Themes</option>
-              <option value="catppuccinMocha">Mocha</option>
-              <option value="catppuccinMacchiato">Macchiato</option>
-              <option value="catppuccinFrappe">Frappe</option>
-              <option value="catppuccinLatte">Latte</option>
-              <option disabled selected>Custom Themes</option>
-            </select>
+        
           </body>
