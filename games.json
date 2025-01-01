@@ -64,6 +64,24 @@
 "link":"games/retrobowl/",
 "id":"game",
 "image":"images/retro.png"
+},
+{
+"title":"Slope",
+"link":"games/slope/",
+"id":"game",
+"image":"images/slope.jpeg"
+},
+{
+"title":"10minutestilldawn",
+"link":"games/10minutestilldawn/",
+"id":"game",
+"image":"images/min.png"
+},
+{
+"title":"1v1 lol",
+"link":"games/1v1lol/",
+"id":"game",
+"image":"images/lol.png"
 }
 
 
