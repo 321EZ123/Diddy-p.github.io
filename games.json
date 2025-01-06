@@ -1,6 +1,6 @@
 [
 {
-"title":"sprinter",
+"title":"Sprinter",
 "link":"games/sprinter",
 "id":"game",
 "image":"images/sprinter.jpeg"
@@ -12,13 +12,13 @@
 "image":"images/geometry.jpeg"
 },
 {
-"title":"tunnel rush",
+"title":"Tunnel rush",
 "link":"games/tunnel-rush/",
 "id":"game",
 "image":"images/rush.webp"
 },
 {
-"title":"run",
+"title":"Run",
 "link":"games/run/",
 "id":"game",
 "image":"images/run.jpeg"
@@ -42,13 +42,13 @@
 "image":"images/drift.jpeg"
 },
 {
-"title":"bloons td",
+"title":"Bloons td",
 "link":"games/bloonstd/",
 "id":"game",
 "image":"images/bloons1.jpeg"
 },
 {
-"title":"bloons td 2",
+"title":"Bloons td 2",
 "link":"games/bloonstd2/",
 "id":"game",
 "image":"images/bloons2.png"
@@ -82,6 +82,36 @@
 "link":"games/1v1lol/",
 "id":"game",
 "image":"images/lol.png"
+},
+{
+"title":"Block blast",
+"link":"games/blockblast/",
+"id":"game",
+"image":"images/block.webp"
+},
+{
+"title":"Polytrack",
+"link":"games/polytrack/",
+"id":"game",
+"image":"images/track.jpg"
+},
+{
+"title":"Retro bowl college",
+"link":"games/retrobowl-college/",
+"id":"game",
+"image":"images/college.png"
+},
+{
+"title":"Temple run 2",
+"link":"games/Templerun/",
+"id":"game",
+"image":"images/temple.png"
+},
+{
+"title":"Bitlife",
+"link":"games/Bitlife/",
+"id":"game",
+"image":"images/bitlife.png"
 }
 
 

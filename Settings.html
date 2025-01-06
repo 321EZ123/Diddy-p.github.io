@@ -4,14 +4,63 @@
 <meta charset="utf-8">
 <link rel="stylesheet" href="Settings.css">
 <link rel="icon" type="image/x-icon" href="images/sat.png">
-<title>SATURN-Settings</title>
+<title>SATURN-SETTINGS</title>
 </head>
 <body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  <script src=" https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js "></script>
+
     <nav>
         <a href="index.html"><i>Home</i></a>
         <a href="Games.html"><i>Games</i></a>
         <a href="Settings.html"><i>Settings</i></a>
         <a href="About.html"><i>About</i></a>
       </nav>
-    
+   <script src="/js/all.js"></script>
+   <script src="/js/main.js"></script>
+   <script src="/js/themes.js"></script>
+   <script src="/js/cloaks.js"></script>
+   <script src="/js/themes.js"></script>
+  
+      <h1>Settings</h1>
+      <form action="javascript:setCloakCookie();">
+        <h3>Website Name</h3>
+        <input type="text" id="webname" name="webname" placeholder="Saturn" /><br />
+        <h3>Website Icon</h3>
+        <input type="text" id="webicon" name="webicon" placeholder="" /><br />
+        <h3>Or select a preset:</h3>
+        <select id="presetCloaks">
+          <option>Select a preset:</option>
+          <option value="google">Google</option>
+          <option value="canvas">Canvas</option>
+          <option value="desmos">Desmos</option>
+          <option value="drive">Google Drive</option>
+          <option value="classroom">Google Classroom</option>
+          <option value="newtab">New Tab</option>
+          <option value="docs">Google Docs</option>
+          <option value="edpuzzle">Edpuzzle</option>
+          <option value="khan">Khan Academy</option>
+          <option value="quizlet">Quizlet</option>
+          <option value="schoology">Schoology</option>
+        </select>
+        <br />
+        <input id="websubmit" class="submit" type="submit" value="Set Tab Cloak" />
+      </form>
+      <button onclick="javascript:clearCloak();">Clear your current tab cloak</button>
+      <br />
+   
+      <form action="javascript:setPanicMode();">
+        <h3 for="panic">Website URL</h3>
+        <input type="text" id="panic" name="panic" placeholder="https://google.com" /><br />
+        <input id="panic" class="submit" type="submit" value="Set Panic Mode" />
+      </form>
+      <form action="javascript:setPassword();">
+        <h3 for="pass">Password to access website</h3>
+        <input type="text" id="pass" name="pass" placeholder="password" /><br />
+        <p>If someone tries to click on the URL from your browser, it will require a password to access the website.</p>
+        <p>If you type in the wrong password it wil redirect to google</p>
+        <input id="setPass" class="submit" type="submit" value="Set Password" />
+        <button id="delPass" onclick="delPassword()">Delete Password</button>
+      </form>
+    </main>
           </body>
