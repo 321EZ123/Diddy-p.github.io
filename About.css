@@ -1,12 +1,12 @@
 body{
     background-color: #141414;
-    font-family: "Contrail One", sans-serif;
     font-weight: bold;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    background-image: url(../images/saturn.webp);
+    background-image: url(../images/satur.webp);
+    text-align: center;
     }
 
     .container {
@@ -113,4 +113,6 @@ h1 {
   padding-left: 2rem;
   padding-right: 2rem;
 }
+
+ 
       

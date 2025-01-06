@@ -32,13 +32,38 @@
     <a href="About.html"><i>About</i></a>
   </nav>
 
-<div class="container">
-    <h1>SATURN</h1>
+  <h1>SATURN</h1>
 
-  
+  <p id="quote"></p>
     
       <div id="time" class="footer-time"></div>
       <script src="time.js"></script>
+  <script>
+    // script.js
+const quotes = [
+  "HAWK TUAH",
+  "DIDDLER RIZZLER",
+  "HOW TO BE A LOSER GO ON LOSER.CO DOC",
+  "I LIKE MY CHEESE MOLDY",
+  "KSI SONG IS ASS NGL",
+  "SKIBIDI FORNITE",
+  "THIS TOOK ME MY WHOLE CHIRSTMAS BREAK TO CODE THIS CRAZY RIGHT",
+  "SKIBIDI OHIO RIZZ",
+  "IM JUST A CHILL GUY",
+  "CHECK OUT THE GAMES NEXT UPDATE WILL HAVE MORE GAMES",
+
+];
+
+function displayRandomQuote() {
+  const randomIndex = Math.floor(Math.random() * quotes.length);
+  const quoteElement = document.getElementById('quote');
+  quoteElement.textContent = quotes[randomIndex];
+}
+
+// Display a quote on page load
+displayRandomQuote();
+
+  </script>
     
     </body>
 </html>

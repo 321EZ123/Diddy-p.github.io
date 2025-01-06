@@ -112,6 +112,108 @@
 "link":"games/Bitlife/",
 "id":"game",
 "image":"images/bitlife.png"
+},
+{
+"title":"Age of war",
+"link":"games/Age-of-war/",
+"id":"game",
+"image":"images/warofage.jpg"
+},
+{
+"title":"Basketballbros",
+"link":"games/basketballbros/",
+"id":"game",
+"image":"images/bros.jpg"
+},
+{
+"title":"Baldis basics",
+"link":"games/baldis-basics/",
+"id":"game",
+"image":"images/baldis.png"
+},
+{
+"title":"basketballstars",
+"link":"games/basketballstars/",
+"id":"game",
+"image":"images/basket.png"
+},
+{
+"title":"60s burger run",
+"link":"games/60sburgerun/",
+"id":"game",
+"image":"images/burger.png"
+},
+{
+"title":"fnaf1",
+"link":"games/fnaf1/",
+"id":"game",
+"image":"images/fnaf1.jpg"
+},
+{
+"title":"fnaf2",
+"link":"games/fnaf2/",
+"id":"game",
+"image":"images/fnaf2.jpeg"
+},
+{
+"title":"fnaf3",
+"link":"games/fnaf3/",
+"id":"game",
+"image":"images/fnaf3.webp"
+},
+{
+"title":"fnaf4",
+"link":"games/fnaf4/",
+"id":"game",
+"image":"images/fnaf4.webp"
+},
+{
+"title":"Colorswitch",
+"link":"games/color-switch/",
+"id":"game",
+"image":"images/colorswitch.png"
+},
+{
+"title":"Bike champ",
+"link":"games/bikechamp/",
+"id":"game",
+"image":"images/bike.png"
+},
+{
+"title":"Bike champ2",
+"link":"games/bikechamp2/",
+"id":"game",
+"image":"images/bike2.jpg"
+},
+{
+"title":"Bob the robber2",
+"link":"games/bob-the-robber2",
+"id":"game",
+"image":"images/robber2.jpeg"
+},
+{
+"title":"Basketrandom",
+"link":"games/basketrandom/",
+"id":"game",
+"image":"images/random.png"
+},
+{
+"title":"Vex",
+"link":"games/vex/",
+"id":"game",
+"image":"images/vex.png"
+},
+{
+"title":"Vex 2",
+"link":"games/vex2/",
+"id":"game",
+"image":"images/vex2.png"
+},
+{
+"title":"Cookie clicker",
+"link":"games/cookie-clicker/",
+"id":"game",
+"image":"images/cookie.jpeg"
 }
 
 
