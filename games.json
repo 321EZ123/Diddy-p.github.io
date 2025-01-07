@@ -214,6 +214,36 @@
 "link":"games/cookie-clicker/",
 "id":"game",
 "image":"images/cookie.jpeg"
+},
+{
+"title":"Bad piggies",
+"link":"games/bad-piggies/",
+"id":"game",
+"image":"images/badpiggies.png"
+},
+{
+"title":"Block zappers",
+"link":"games/block-zappers/",
+"id":"game",
+"image":"images/block3.png"
+},
+{
+"title":"2048",
+"link":"games/2048/",
+"id":"game",
+"image":"images/2048.png"
+},
+{
+"title":"Burrito bison",
+"link":"games/burritobison/",
+"id":"game",
+"image":"images/burrito.jpeg"
+},
+{
+"title":"Rocket league",
+"link":"games/rocket-league/",
+"id":"game",
+"image":"images/rocketleague.webp"
 }
 
 
