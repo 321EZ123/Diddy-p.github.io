@@ -244,7 +244,120 @@
 "link":"games/rocket-league/",
 "id":"game",
 "image":"images/rocketleague.webp"
+},
+{
+"title":"Banjo kazooie",
+"link":"games/banjo-kazooie/",
+"id":"game",
+"image":"images/banjokazooie.png"
+},
+{
+"title":"Cluster rush",
+"link":"games/cluster-rush/",
+"id":"game",
+"image":"images/cluster.jpg"
+},
+{
+"title":"Snow rider 3D",
+"link":"games/snow-ride/",
+"id":"game",
+"image":"images/snow.png"
+},
+{
+"title":"Death run",
+"link":"games/death-run/",
+"id":"game",
+"image":"images/death.png"
+},
+{
+"title":"Duck of life",
+"link":"games/duck-life/",
+"id":"game",
+"image":"images/ducklife1.png"
+},
+{
+"title":"Duck of life 2",
+"link":"games/duck-life2/",
+"id":"game",
+"image":"images/ducklife2.png"
+},
+{
+"title":"Duck of life 3",
+"link":"games/duck-life3/",
+"id":"game",
+"image":"images/ducklife3.png"
+},
+{
+"title":"Duck of life 4",
+"link":"games/duck-life4/",
+"id":"game",
+"image":"images/ducklife4.png"
+},
+{
+"title":"Duck of life 5",
+"link":"games/duck-life5/",
+"id":"game",
+"image":"images/ducklife5.png"
+},
+{
+"title":"Duck of life 6",
+"link":"games/duck-life6/",
+"id":"game",
+"image":"images/ducklife6.png"
+},
+{
+"title":"Drive mad",
+"link":"games/drivemad/",
+"id":"game",
+"image":"images/drive.jpg"
+},
+{
+"title":"Bloons td 3",
+"link":"games/bloonstd3/",
+"id":"game",
+"image":"images/bloons3.png"
+},
+{
+"title":"Bloons td 4",
+"link":"games/bloonstd4/",
+"id":"game",
+"image":"images/bloons4.jpg"
+},
+{
+"title":"Bloons td 5",
+"link":"games/bloonstd5/",
+"id":"game",
+"image":"images/bloons5.jpg"
+},
+{
+"title":"Bloons td 6",
+"link":"games/bloonstd6/",
+"id":"game",
+"image":"images/bloons6.png"
+},
+{
+"title":"Circlo",
+"link":"games/circlo/",
+"id":"game",
+"image":"images/circlo.png"
+},
+{
+"title":"gta 1",
+"link":"games/gta1/",
+"id":"game",
+"image":"images/gta.png"
+},
+{
+"title":"gta 2",
+"link":"games/gta2/",
+"id":"game",
+"image":"images/gta2.png"
+},
+{
+"title":"Doodle jump",
+"link":"games/doodle-jump/",
+"id":"game",
+"image":"images/jump.png"
 }
-
 
 ]
