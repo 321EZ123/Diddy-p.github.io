@@ -33,7 +33,7 @@
 "title":"ADOFAI",
 "link":"games/a-dance-on-fire-and-ice/",
 "id":"game",
-"image":"images/ice.jpeg"
+"image":"images/fireandice.png"
 },
 {
 "title":"Drift boss",
@@ -358,6 +358,78 @@
 "link":"games/doodle-jump/",
 "id":"game",
 "image":"images/jump.png"
+},
+{
+"title":"Cube field",
+"link":"games/cube-field/",
+"id":"game",
+"image":"images/cube.png"
+},
+{
+"title":"Run 2",
+"link":"games/run2/",
+"id":"game",
+"image":"images/run2.jpg"
+},
+{
+"title":"Run 3",
+"link":"games/run3/",
+"id":"game",
+"image":"images/run3.jpeg"
+},
+{
+"title":"Flappy bird",
+"link":"games/flappybird/",
+"id":"game",
+"image":"images/flappybird.png"
+},
+{
+"title":"ADOFAI",
+"link":"games/adofai/",
+"id":"game",
+"image":"images/fireandice.png"
+},
+{
+"title":"Bloxors",
+"link":"games/bloxors/",
+"id":"game",
+"image":"images/block.png"
+},
+{
+"title":"Age of war 2",
+"link":"games/Age-of-war2/",
+"id":"game",
+"image":"images/warofage.jpg"
+},
+{
+"title":"Slope 2",
+"link":"games/Slope2/",
+"id":"game",
+"image":"images/slope2.png"
+},
+{
+"title":"2048 cupcake",
+"link":"games/2048-cupcake/",
+"id":"game",
+"image":"images/favicon.ico"
+},
+{
+"title":"2048 multitask",
+"link":"games/2048-multitask/",
+"id":"game",
+"image":"images/2048.png"
+},
+{
+"title":"Bacon may die",
+"link":"games/bacon-may-die/",
+"id":"game",
+"image":"images/bacon.png"
+},
+{
+"title":"Monkeymart",
+"link":"games/Monkeymart/",
+"id":"game",
+"image":"images/monkeymart.png"
 }
 
 ]

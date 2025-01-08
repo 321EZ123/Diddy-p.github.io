@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="em">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="Suggest.css">
+<link rel="icon" type="image/x-icon" href="images/sat.png">
+<title>SATURN-SUGGEST</title>
+<body>
+    <nav>
+        <a href="index.html"><i>Home</i></a>
+        <a href="Games.html"><i>Games</i></a>
+        <a href="Settings.html"><i>Settings</i></a>
+        <a href="About.html"><i>About</i></a>
+        <a href="Suggest.html"><i>Suggest</i></a>
+      </nav>
+   <script src="/js/all.js"></script>
+   <script src="/js/main.js"></script>
+   <script src="/js/themes.js"></script>
+   <script src="/js/cloaks.js"></script>
+   <script src="/js/themes.js"></script>
+
+   <iframe id="myIframe" src=" https://forms.fillout.com/t/q7oV5yS9m6us"></iframe>
+   <button id="fullscreenButton" onclick="goFullscreen()">Fullscreen</button>
+   <script>
+     function goFullscreen() {
+            const iframe = document.getElementById('myIframe');
+            if (iframe.requestFullscreen) {
+                iframe.requestFullscreen();
+            } else if (iframe.mozRequestFullScreen) { // Firefox
+                iframe.mozRequestFullScreen();
+            } else if (iframe.webkitRequestFullscreen) { // Chrome, Safari, Opera
+                iframe.webkitRequestFullscreen();
+            } else if (iframe.msRequestFullscreen) { // IE/Edge
+                iframe.msRequestFullscreen();
+            }
+        }
+   </script>
+  
+</body>
+</head>
+</html>

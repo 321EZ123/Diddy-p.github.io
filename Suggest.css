@@ -1,0 +1,67 @@
+body{
+    background-color:#141414 ;
+    font-weight: bold;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url(../images/dimmerr.webp);
+    text-align: center;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+     
+    }
+    nav a {
+      margin: 20px;
+      color: #fff;
+      text-align: center;
+      text-decoration: none;
+      font-family: "Contrail One", sans-serif;
+      transition: transform 0.3s ease, color 0.3s ease;
+      position: relative; /* Ensures transform works */
+      display: inline-block; /* Makes sure the link behaves like a block-level element */
+    }
+    
+    nav a:hover {
+      transform: scale(1.2); /* Zoom-in effect */
+      color: #e2bf7d; /* Optional: change color on hover */
+    }
+    
+    nav {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      background-color: #1a1a1a;
+      box-shadow: #1a1a1a;
+      overflow: visible; /* Ensure zoomed-in link isn't clipped */
+    }
+
+  
+  iframe {
+      border: none;
+      width: 80%; /* Adjust as needed */
+      height: 500px;
+      margin: 20px auto;
+  }
+  #fullscreenButton {
+      position: fixed;
+      right: 20px; /* Distance from the right edge */
+      top: 50%;
+      transform: translateY(-50%);
+      padding: 10px 15px;
+      font-size: 16px;
+      background-color: #1a1a1a;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+  }
+  #fullscreenButton:hover {
+      background-color: #1a1a1a;
+  }
+    
