@@ -16,7 +16,7 @@ body{
     color: #fff;
     text-align: center;
     text-decoration: none;
-    font-family: "Contrail One", sans-serif;
+    font-family: 'Montserrat';
     transition: transform 0.3s ease, color 0.3s ease;
     position: relative; /* Ensures transform works */
     display: inline-block; /* Makes sure the link behaves like a block-level element */

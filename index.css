@@ -18,6 +18,7 @@ text-align: center;
 }
 
 h1 {
+    font-family: 'Montserrat';
     margin: 0;
     padding: 20px;
     font-size: 4em;
@@ -29,6 +30,8 @@ h1 {
     font-weight: bold;
     margin-top: 190px;
     justify-content: center;
+    text-shadow: 0 0 5px #141414, 0 0 10px #141414, 0 0 20px ,
+    0 0 40px #141414, 0 0 80px #141414, 0 0 90px #141414;
 }
 
 nav a {
@@ -36,7 +39,7 @@ nav a {
   color: #fff;
   text-align: center;
   text-decoration: none;
-  font-family: "Contrail One", sans-serif;
+  font-family: 'Montserrat';
   transition: transform 0.3s ease, color 0.3s ease;
   position: relative; /* Ensures transform works */
   display: inline-block; /* Makes sure the link behaves like a block-level element */
@@ -75,7 +78,7 @@ nav {
   border: 1px solid #ccc;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  font-family: "Contrail One", sans-serif;
+  font-family: 'Montserrat';
 }
 
 
