@@ -646,6 +646,24 @@
 "link":"games/bad-ice-cream3/",
 "id":"game",
 "image":"images/bad-ice-cream-3.png"
+},
+{
+"title":"Boxing random",
+"link":"games/boxingrandom/",
+"id":"game",
+"image":"images/boxing.jpg"
+},
+{
+"title":"Dogeminer",
+"link":"games/dogeminer/",
+"id":"game",
+"image":"images/doge.jpeg"
+},
+{
+"title":"Dogeminer2",
+"link":"games/dogeminer2/",
+"id":"game",
+"image":"images/doge2.jpeg"
 }
 
 
