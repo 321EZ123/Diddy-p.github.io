@@ -52,44 +52,22 @@ body{
   .game {
       display: inline-block;
       background-color:#141414;;
-      border-radius: 10px;
-      margin: 10px;
-      box-shadow: 0px 0px 10px 2px white;
+      border-radius: 20px;
+      margin: 20px;
       margin-top: 20px;
       width: 200px;
-      transition: transform 0.3s ease; /* Adds smooth transition effect */
+      transition: .5s;
   
       
   }
   .game:hover {
-    transform: scale(1.1); /* Zoom in on hover */
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px 2px white;
 }
   
-  .gamehot {
-    display: inline-block;
-    background-color:#ffffff;
-    border-radius: 10px;
-    margin: 10px;
-    box-shadow: 0px 0px 10px 2px #ff7300;
-    margin-top: 20px;
-    width: 200px;
+ 
   
   
-    
-  }
-  
-  
-  
-  .gamehot img {
-    height: 200;
-    width:  170px;
-    margin: 10px;
-  
-    object-fit: cover;
-    border-radius: 15px;
-    transition: transform .35s ease;
-  
-  }
   
   .gamespace {
     visibility: hidden;
@@ -134,8 +112,8 @@ body{
   #searchInput {
     background-color: #141414;
     padding: 15px;
-    border-radius: 10px;
-    width: 700px;
+    border-radius: 20px;
+    width: 750px;
     border: solid;
     color: #FFFFFF;
     font-size: 150%;
@@ -151,7 +129,7 @@ body{
   }
   
   h1 {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     font-family: 'Montserrat', sans-serif;
     color: white;
     text-shadow: 10px 10px 4px black;
@@ -161,7 +139,7 @@ body{
   font-size: 12rem;
 }
 h2 {
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     line-height: 0;
     font-family: 'Montserrat', sans-serif;
     color: white;
