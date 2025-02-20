@@ -22,13 +22,13 @@ body{
       text-align: center;
       text-decoration: none;
       font-family: 'Montserrat';
-      transition: transform 0.3s ease, color 0.3s ease;
+      transition: 0.3s ease-in-out;
       position: relative; /* Ensures transform works */
       display: inline-block; /* Makes sure the link behaves like a block-level element */
     }
     
     nav a:hover {
-      transform: scale(1.2); /* Zoom-in effect */
+      transform: translateY(-0.3em);
       color: #e2bf7d; /* Optional: change color on hover */
     }
     
@@ -38,27 +38,30 @@ body{
       background-color: #1a1a1a;
       box-shadow: #1a1a1a;
       overflow: visible; /* Ensure zoomed-in link isn't clipped */
+      border-radius: 15px;
     }
     
   .games {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0 auto;
-    max-width: 1200px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin: 0 auto;
+   max-width: 1200px;
   
   }
   
   .game {
-      display: inline-block;
-      background-color:#141414;;
-      border-radius: 15px;
-      margin: 15px;
-      width: 150px;
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-      box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
-      padding: 10px;
-      text-align: center;
+    display: inline-block;
+    background-color: #282828; /* Darker grey background */
+    border-radius: 25px; /* More rounded corners */
+    margin: 15px;
+    width: 150px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* More subtle shadow */
+    padding: 10px;
+    text-align: center;
+    color: white; /* Added to make text visible */
+    font-family: Arial, Helvetica, sans-serif; /* Similar font */
       
   }
   .game:hover {
@@ -103,7 +106,8 @@ body{
   .game img {
     width: 100px;
     height: 100px;
-    border-radius: 5%;
+    border-radius: 15%; /* More rounded corners for images */
+    object-fit: cover; /* Maintain aspect ratio */
   
   }
   /* Responsive Design */
@@ -169,4 +173,3 @@ h2 {
     text-align: center;
 }
 
- 

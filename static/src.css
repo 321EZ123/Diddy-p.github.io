@@ -1,16 +1,9 @@
-@font-face {
-  font-family: Prompt;
-  src: url(/fonts/prompt.ttf);
-}
-@font-face {
-  font-family: Fredoka;
-  src: url(/fonts/fredoka.ttf);
-}
+
 
 html {
  background-color: #000000;
  color: white;
-text-align: center;
+ text-align: center;
  display: flex;
  justify-content: center;
  margin: 0;
@@ -18,14 +11,14 @@ text-align: center;
 }
 
 h1,h2,h3 {
- font-family: "Prompt";
+ font-family: 'Montserrat';
  color: white;
  margin-bottom: 20px; 
  margin-top: 100px;
 }
 
 h4,h5,p,a {
-  font-family: "Fredoka";
+font-family: 'Montserrat';
  color: white;
 }
 
@@ -108,3 +101,4 @@ filter: invert(.4);
 	position: absolute;
     z-index: -100;
 }
+

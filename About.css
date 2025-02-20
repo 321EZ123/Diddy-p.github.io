@@ -23,13 +23,13 @@ body{
       text-align: center;
       text-decoration: none;
       font-family: 'Montserrat';
-      transition: transform 0.3s ease, color 0.3s ease;
+      transition: 0.3s ease-in-out;
       position: relative; /* Ensures transform works */
       display: inline-block; /* Makes sure the link behaves like a block-level element */
     }
     
     nav a:hover {
-      transform: scale(1.2); /* Zoom-in effect */
+      transform: translateY(-0.3em);
       color: #e2bf7d; /* Optional: change color on hover */
     }
     
@@ -39,6 +39,7 @@ body{
       background-color: #1a1a1a;
       box-shadow: #1a1a1a;
       overflow: visible; /* Ensure zoomed-in link isn't clipped */
+      border-radius: 15px;
     }
 
 

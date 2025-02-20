@@ -32,6 +32,10 @@ h1 {
     justify-content: center;
     text-shadow: 0 0 5px #141414, 0 0 10px #141414, 0 0 20px ,
     0 0 40px #141414, 0 0 80px #141414, 0 0 90px #141414;
+    transition: transform 0.3s ease-in-out;
+}
+h1:hover {
+  transform: scale(1.1);
 }
 
 nav a {
@@ -40,13 +44,13 @@ nav a {
   text-align: center;
   text-decoration: none;
   font-family: 'Montserrat';
-  transition: transform 0.3s ease, color 0.3s ease;
+  transition: 0.3s ease-in-out;
   position: relative; /* Ensures transform works */
   display: inline-block; /* Makes sure the link behaves like a block-level element */
 }
 
 nav a:hover {
-  transform: scale(1.2); /* Zoom-in effect */
+  transform: translateY(-0.3em);
   color: #e2bf7d; /* Optional: change color on hover */
 }
 
@@ -56,17 +60,44 @@ nav {
   background-color: #1a1a1a;
   box-shadow: #1a1a1a;
   overflow: visible; /* Ensure zoomed-in link isn't clipped */
+  border-radius: 15px;
 }
 
 #quote {
   font-size: 1.5rem;
   color:  #ffffff;
   padding: 20px;
-  border: 1px solid #ccc;
   border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   font-family: 'Montserrat';
 }
 
+footer {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 50%;
+  margin-left: 335px;
+  border-radius: 15px;
+}
+
+footer nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.3s ease-in-out;
+}
+
+footer a:hover {
+  color: #e2bf7d;
+  transform: translateY(-0.3em);
+}
 
  
