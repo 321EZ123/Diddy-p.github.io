@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="Games.html">Games</a>
+        <a href="search.html">Proxy</a>
+        <a href="Settings.html">Settings</a>
+        <a href="About.html">About</a>
+        <a href="Suggest.html">Suggest</a>
+      </nav>
+    <div id="gameContainer">
+        <iframe id="gameFrame" src=""></iframe>
+        <button id="fullscreenBtn" style="position: absolute; top: 50%; right: 10px; transform: translateY(-50%); padding: 10px; background-color: #282828; color: white; border: none; border-radius: 5px; cursor: pointer;">#</button>
+      </div>
+      
+      <script>
+        // Get the game URL from the query parameter
+    const urlParams = new URLSearchParams(window.location.search);
+    const gameUrl = urlParams.get('game');
+
+    if (gameUrl) {
+        document.getElementById('gameFrame').src = gameUrl;
+    } else {
+        document.getElementById('gameContainer').innerHTML = '<h2>No game selected</h2>';
+    }
+
+    // Fullscreen functionality
+    document.getElementById('fullscreenBtn').addEventListener('click', function() {
+        let gameFrame = document.getElementById('gameFrame');
+        if (gameFrame.requestFullscreen) {
+            gameFrame.requestFullscreen();
+        } else if (gameFrame.mozRequestFullScreen) { // Firefox
+            gameFrame.mozRequestFullScreen();
+        } else if (gameFrame.webkitRequestFullscreen) { // Chrome, Safari & Opera
+            gameFrame.webkitRequestFullscreen();
+        } else if (gameFrame.msRequestFullscreen) { // IE/Edge
+            gameFrame.msRequestFullscreen();
+        }
+    });
+        
+      </script>
+   
+</body>
+</html>

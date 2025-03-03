@@ -32,10 +32,6 @@ h1 {
     justify-content: center;
     text-shadow: 0 0 5px #141414, 0 0 10px #141414, 0 0 20px ,
     0 0 40px #141414, 0 0 80px #141414, 0 0 90px #141414;
-    transition: transform 0.3s ease-in-out;
-}
-h1:hover {
-  transform: scale(1.1);
 }
 
 nav a {
@@ -51,7 +47,6 @@ nav a {
 
 nav a:hover {
   transform: translateY(-0.3em);
-  color: #e2bf7d; /* Optional: change color on hover */
 }
 
 nav {
@@ -96,7 +91,6 @@ footer a {
 }
 
 footer a:hover {
-  color: #e2bf7d;
   transform: translateY(-0.3em);
 }
 

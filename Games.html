@@ -29,18 +29,27 @@
   <div id="searchContainer">
     <input type="text" id="searchInput" placeholder="Search games. . .">
 </div>
-<div id="searchResults">
-
-  <script type="text/html" id="searchResultTemplate">
+<div id="searchResults"></div>
+<script type="text/html" id="searchResultTemplate">
     <div class="{{id}}">
-    <a  href="{{link}}"><img id="gameimg" id="gamelink" src="{{image}}"/><h2>{{title}}</h2></a>
-    
-  
-      </a>
+        <a href="{{link}}" class="game-link" data-link="{{link}}">
+            <img id="gameimg" src="{{image}}" />
+            <h2>{{title}}</h2>
+        </a>
+    </div>
+</script>
   </script>
   </center>
   
   </div>
+
+  <!-- Container for displaying selected game -->
+<div id="gameDisplay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.9); z-index: 1000; align-items: center; justify-content: center;">
+  <div style="position: relative; width: 80%; height: 80%;">
+      <button id="closeGame" style="position: absolute; top: 10px; right: 10px; background: red; color: white; border: none; padding: 5px 10px; cursor: pointer;">X</button>
+      <iframe id="gameFrame" style="width: 100%; height: 100%; border: none;"></iframe>
+  </div>
+</div>
 
 
 

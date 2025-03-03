@@ -1,13 +1,13 @@
 
 
 html {
- background-color: #000000;
+background-color: #000000;
  color: white;
  text-align: center;
  display: flex;
  justify-content: center;
  margin: 0;
- padding: 0;
+ padding: 0;  
 }
 
 h1,h2,h3 {
@@ -23,19 +23,20 @@ font-family: 'Montserrat';
 }
 
 #proxyFrame {
-border: none;
+  border: none;
   text-align: center;
   justify-content: center;
+  margin-top: 50px;
 }
 
 #uv-address {
-    background-color: transparent;
+  background-color: transparent;
     border: 1.5px #ffffff solid;
   border-radius: 12px;
-    padding: 12px;
+  padding: 12px;
   text-align: center;
-    color: black;
-    font-family: "Prompt";
+  color: black;
+    font-family: 'Montserrat';
     background-color: white;
     outline: none;
     transition: hover .2s;
@@ -100,5 +101,29 @@ filter: invert(.4);
 	top: 100vh;
 	position: absolute;
     z-index: -100;
+}
+nav a {
+  margin: 20px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Montserrat';
+  transition: 0.3s ease-in-out;
+  position: relative; /* Ensures transform works */
+  display: inline-block; /* Makes sure the link behaves like a block-level element */
+  font-weight: bold;
+}
+
+nav a:hover {
+  transform: translateY(-0.3em);
+}
+
+nav {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #1a1a1a;
+  box-shadow: #1a1a1a;
+  overflow: visible; /* Ensure zoomed-in link isn't clipped */
+  border-radius: 15px;
 }
 

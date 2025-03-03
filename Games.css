@@ -29,7 +29,6 @@ body{
     
     nav a:hover {
       transform: translateY(-0.3em);
-      color: #e2bf7d; /* Optional: change color on hover */
     }
     
     nav {
@@ -52,22 +51,21 @@ body{
   
   .game {
     display: inline-block;
-    background-color: #282828; /* Darker grey background */
     border-radius: 25px; /* More rounded corners */
     margin: 15px;
     width: 150px;
+    height: 0px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* More subtle shadow */
     padding: 10px;
     text-align: center;
     color: white; /* Added to make text visible */
-    font-family: Arial, Helvetica, sans-serif; /* Similar font */
+    font-family: 'Montserrat';
+ 
       
   }
   .game:hover {
+    filter: blur(5px); /* Blur effect */
     transform: translateY(-8px);
-    box-shadow: 0px 0px 15px 3px rgba(252, 252, 250, 0.8);
-    cursor: pointer;
 }
   
  
@@ -104,12 +102,17 @@ body{
   a {text-decoration: none;}
   
   .game img {
-    width: 100px;
-    height: 100px;
-    border-radius: 15%; /* More rounded corners for images */
+    width: 150px;
+    height: 150px;
+    border-radius: 15%; /*More rounded corners for images */
     object-fit: cover; /* Maintain aspect ratio */
+    transition: transform 0.3s ease, filter 0.3s ease; /* Added transform for zoom effect */
   
   }
+  .game:hover img {
+    filter: blur(5px); /* Blur effect */
+    transform: scale(1.1); /* Zoom-in effect */
+}
   /* Responsive Design */
 @media (max-width: 768px) {
   #searchInput {
@@ -130,12 +133,13 @@ body{
     width: 60%;
     max-width: 600px;
     border: 2px solid white;
-    color: white;
+    color: #ffffff;
     font-size: 18px;
     font-weight: bold;
     text-align: center;
-    transition: all 0.3s ease-in-out;
     outline: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Adds a subtle depth */
+    font-family: 'Montserrat';
   
   }
 
@@ -144,16 +148,8 @@ body{
     justify-content: center;
     margin-top: 60px;
   }
-  #searchInput::placeholder {
-    color: rgba(255, 255, 255, 0.6);
-}
 
-#searchInput:focus {
-    background-color: rgba(255, 255, 255, 0.1);
-    border-color: #ffffff;
-    box-shadow: 0 0 15px rgba(251, 251, 249, 0.7);
-}
-  
+
   h1 {
     font-size: 1.5rem;
     font-family: 'Montserrat', sans-serif;
@@ -164,12 +160,23 @@ body{
 .h1p {
   font-size: 12rem;
 }
-h2 {
-    font-size: 0.9rem;
-    line-height: 0;
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    text-shadow: 1px 3px 4px black;
-    text-align: center;
+.game h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 0.9rem;
+  font-family: 'Montserrat';
+  color: white;
+  text-shadow: 1px 3px 4px black;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  background: rgba(0, 0, 0, 0.6); /* Semi-transparent background for readability */
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin-top: 75px;
 }
-
+.game:hover h2 {
+  opacity: 1; /* Show text */
+}
