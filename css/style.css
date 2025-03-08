@@ -70,10 +70,13 @@ body{
         color: #ffffff;
         text-align: center;
         position: fixed;
-        bottom: 0;
-        width: 70em;
-        margin-left: 120px;
+        bottom: 10px; /* Slightly above the edge for better spacing */
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%; /* Responsive width */
+        max-width: 1200px; /* Prevents it from stretching too wide */
         border-radius: 15px;
+        z-index: 999; /* Ensures it's above other content */
         
       }
       
